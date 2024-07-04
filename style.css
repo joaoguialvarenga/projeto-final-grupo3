@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.home {
+  
+    justify-content: center;
+    display: flex;
+    padding: 57px 18px;
+    width: 1400px;
+    height: 800px;
+    
+   background-image:url(./img/background.png);  
+}   
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    width: 651px;
+    height: 265px;
+}
+
+.texto> h1  {
+    color: #e5e5e5;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ 
+ }
+
+ .texto > p {
+    color: #e5e5e5;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 40px;
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    justify-content: center;  
+}
+
+.btn1 {
+    background-color: #d41c28;
+    padding: 50px;
+
+    padding: 15px 30px;
+    border-radius: 50px;
+
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    text-align: center;   
+}
+
+
+.btn2 { 
+    background-color: transparent;
+    
+    padding: 15px 30px;
+    border-radius: 50px;
+
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid white;
+   
+}
+
+
+
+.img > img {
+    width: 100%;
+    height: 530px;
+    align-items: center;
+}
