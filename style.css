@@ -71,12 +71,9 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-    
+}    
 
 .home {
-  
     justify-content: center;
     display: flex;
     padding: 57px 18px;
@@ -101,6 +98,7 @@ body, html {
 
 .home-heading h1  {
     color: var(--clr-white);
+    color: #e5e5e5;
     font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 52px;
     font-weight: 800;
@@ -109,8 +107,7 @@ body, html {
     text-align: center;
     display: flex;
     justify-content: center;
- 
- }
+  }
 
  .home-heading > p {
     color: #e5e5e5;
@@ -153,10 +150,25 @@ body, html {
     text-decoration: none;
 }
 
+.btn-home1 {
+    background-color: #d41c28;
+    padding: 50px;
+
+    padding: 15px 30px;
+    border-radius: 50px;
+
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    text-align: center;   
+}
+
 .btn-home2 { 
     background-color: transparent;
     
     padding: 20px;
+    padding: 15px 30px;
     border-radius: 50px;
 
     font-size: 20px;
@@ -188,6 +200,19 @@ body, html {
     }
 }
 
+.img > img {
+    width: 100%;
+    height: 530px;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .img > img {
+        display: none;
+        background-image: url(./img/background.png);
+    }
+}
+
 .secaocard {
     display: flex;
     flex-direction: column;
@@ -197,12 +222,16 @@ body, html {
     width: 100%;
 }
 
-
 .secaocard > h2 {
     font-family: 'Raleway', Helvetica, sans-serif;
     font-size: xx-large;
     color: white;
     margin-bottom: 2rem;
+}
+
+.h2 {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: xx-large;
 }
 
 .card-grid {
@@ -211,12 +240,15 @@ body, html {
     grid-gap: 1.5rem;
     padding-left: 6.5rem;
     padding-right: 6.5rem;
+    padding-top: 2rem;
+    padding-left: 6.5rem;
     padding-bottom: 0.75rem;
     justify-content: center;
     align-items: center;
     background-color: #381505;
     max-width: 100%;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -235,6 +267,9 @@ body, html {
         padding: 1rem;
         width: 100%;
         box-sizing: border-box;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
     }
 
     .image {
@@ -242,7 +277,6 @@ body, html {
         height: auto;
         margin-bottom: 1rem;
     }
-}
 
 .card {
     display: flex;
@@ -253,7 +287,17 @@ body, html {
     padding: 1rem;
     width: 100%;
     box-sizing: border-box;
+  
+    justify-content: space-between;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: 1% solid #ccc;
+    background-color: #ccc;
+    border-radius: 20px;
+    height: 95%;
+    width: 85%;
 }
+
 .card h4 {
     margin: 0;
     font-family: 'Raleway', Helvetica, sans-serif;
@@ -280,6 +324,39 @@ image {
 
 .texto > p {
     color: #000000;
+    padding-bottom: 3rem;
+}
+
+
+.imagem {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #000000;
+    background-color: beige;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.imagem::before {
+    content: '#';
+    font-size: 2rem;
+    color: #000000;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    padding-right: 1%;
+    color: #000000;
+}
+
+.texto>p {
+    color: #000000;
 }
 
 .title {
@@ -293,6 +370,7 @@ image {
         text-align: center;
     }
 }
+
 
 .btncard{
     width: 204%;
@@ -321,6 +399,22 @@ image {
     transition-behavior;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     text-decoration: none;
+    justify-content: center;
+    background-color: #d41c28;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    text-align: center;
+    width: fit-content;
+
+    transition: transform 150ms;
+}
+
+.btncard:hover {
+    transform: scale(1.06);
 }
 
 footer {
