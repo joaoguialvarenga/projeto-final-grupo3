@@ -90,12 +90,32 @@ header nav a:hover {
 .btn-header:hover {
     background-color:#721319;
     color: var(--clr-white);
+
+    background-color: var(--clr-brown);
+
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     text-decoration: none;
 }
 
+
 .home {
+
+@media screen and (min-width: 1024px) {
+    header nav {
+        display: flex;
+    }
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+
+
     justify-content: center;
     display: flex;
     padding: 57px 18px;
@@ -106,6 +126,23 @@ header nav a:hover {
 }
 
 @media screen and (max-width: 1024px) {
+
+
+    background-image: url(./img/background.png);
+    background-size: 100%;
+.home {
+   justify-content: center;
+   display: flex;
+   padding: 57px 18px;
+   max-width: 100%;
+   height: 100%;
+
+   background-image:url(./img/background.png);  
+   background-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
     .home {
         display: flex;
         flex-direction: column;
@@ -130,6 +167,7 @@ header nav a:hover {
     font-size: 52px;
     font-weight: 800;
     line-height: 52px;
+
     text-align: center;
     display: flex;
     justify-content: center;
@@ -138,6 +176,15 @@ header nav a:hover {
 
 .home-heading > p {
     color: var(--clr-white);
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-heading>p {
+    color: #e5e5e5;
     font-family: 'Oxygen', Helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
@@ -153,8 +200,10 @@ header nav a:hover {
     text-align: center;
     gap: 20px;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
+
+
 
 .btn-home1 {
     display: flex;
@@ -166,6 +215,9 @@ header nav a:hover {
     font-size: 20px;
     color: var(--clr-white);
     text-decoration: none;
+  
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    text-align: center;
     transition: border 0.3s ease, background-color 0.3s ease;
 }
 
@@ -179,7 +231,12 @@ header nav a:hover {
 
 .btn-home2 {
     background-color: transparent;
+
+
+    padding: 15px 30px;
+    
     padding: 20px;
+
     border-radius: 50px;
     font-size: 20px;
     color: white;
@@ -196,15 +253,19 @@ header nav a:hover {
     text-decoration: none;
 }
 
-.img > img {
+.img>img {
     width: 100%;
     min-width: min-content;
     height: 530px;
     align-items: center;
 }
 
+
 @media screen and (max-width: 1024px) {
     .img > img {
+
+@media screen and (max-width: 768px) {
+    .img>img {
         display: none;
     }
 }
@@ -451,6 +512,23 @@ footer {
     padding: 0.5rem 1.5rem;
     margin-top: 1.3rem;
     margin-bottom: 2rem;
+    font-size: 20px;
+    color: var(--clr-white);
+    text-decoration: none;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    text-align: center;
+    width: fit-content;
+
+
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.btncard:hover {
+    background-color: var(--clr-brown);
+    transform: scale(1.1);
+    transition-behavior;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: border 0.3s ease, background-color 0.3s ease;
 }
 
 .contato {
@@ -483,6 +561,61 @@ footer {
     padding-top: 2%;
     padding-left: 1rem;
 }
+/*contato*/
+
+.contato {
+    background-image: url(./img/fundocontato.svg);
+    width: 100%;
+    height: auto;
+
+}
+
+
+.contato>h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: xx-large;
+    padding-top: 3%;
+    color: white;
+}
+
+.contato>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+    list-style: none;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+.contato>ul>li {
+    display: flex;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: x-large;
+    justify-content: center;
+    color: green;
+}
+
+.whatsapp {
+    color: green;
+}
+
+.instagram {
+    color: rgb(170, 0, 65);
+}
+
+
+
+/*footer*/
+footer {
+    margin: 0;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    background-color: #e5e5e5;
+    font-weight: bold;
+    padding: 18px;
+    font-size: 18px;
 
 .contato > ul > li {
     display: flex;
