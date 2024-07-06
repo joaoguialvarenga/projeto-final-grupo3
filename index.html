@@ -5,92 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>HummBurguer</title>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="./img/LOGO hmm.svg"> 
+    <title>HummBurguer!</title>
   </head>
   <body>
     <header>
       <img src="./img/Logo.svg" alt="logo do site: imagem de hambúrguer mais o texto hummburguer!">
-
       <nav>
         <a href="#menu">Menu</a>
         <a href="#sobre">Sobre nós</a>
         <a class="btn-header" href="#contatos">Faça seu pedido</a>
       </nav>
-  </header>
+    </header>
     <main>
-    <div class="home">
-      <div class="home-heading">
-        <h1>Convidamos você para descobrir novos sabores a cada mordida</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet amet tristique ipsum aliquam. Vulputate dolor, nunc phasellus vestibulum turpis posuere turpis eget vel.
-        </p>
-        <div class="btn-home">
-          <a class="btn-home1" href="" target="_blank">Comer Agora!</a>
-          <a class="btn-home2" href="">Ver mais opções</a>
+      <div class="home">
+        <div class="home-heading">
+          <h1>Convidamos você para descobrir novos sabores a cada mordida</h1>
+          <p>Na hummBurguer, cada mordida é uma explosão de sabor e prazer. Queremos convidá-lo para uma experiência gastronômica única, onde os hambúrgueres são feitos com ingredientes frescos e de alta qualidade, preparados com carinho e paixão. Venha nos visitar e descubra porque nossos lanches são tão especiais. Estamos esperando por você para compartilhar momentos deliciosos e memoráveis. Venha saborear o melhor hambúrguer da cidade!
+          </p>
+          <div class="btn-home">
+            <a class="btn-home1" href="#" target="_blank">Comer Agora!</a>
+            <a class="btn-home2" href="#">Ver mais opções</a>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./img/hamburguer imagem.svg" alt="Imagem de um Hamburguer" />
         </div>
       </div>
-      <div class="img">
-        <img
-          src="./img/34810b64-bd13-41d2-ab06-ea0a1ff22fe8 1.png"
-          alt="Imagem de um Hamburguer"
-        />
+    
+      <div class="menuseta">
+        <img src="./img/menuseta.svg" alt="Menu com seta">
       </div>
-    </div>
-    <div class="secaocard">
-        <h2 style="color: white;" class="title">Lanches mais pedidos</h2>
-        <div class="card-grid">
-            <div class="card">
-                <div class="texto">
-                    <h4>Title</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facere a reprehenderit.</p>
-                    <h4>R$00,00</h4>
-                </div>
-                <div class="image">
-                    <img src="./img/foto1.jpg" alt="foto do lanche">
-                </div>
-            </div>
-            <div class="card">
-                <div class="texto">
-                    <h4>Title</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facere a reprehenderit.</p>
-                    <h4>R$00,00</h4>
-                </div>
-                <div class="image">
-                    <img src="./img/foto1.jpg" alt="foto do lanche">
-                </div>
-            </div>
-            <div class="card">
-                <div class="texto">
-                    <h4>Title</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facere a reprehenderit.</p>
-                    <h4>R$00,00</h4>
-                </div>
-                <div class="image">
-                    <img src="./img/foto1.jpg" alt="foto do lanche">
-                </div>
-            </div>
-            <div class="card">
-                <div class="texto">
-                    <h4>Title</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facere a reprehenderit.</p>
-                    <h4>R$00,00</h4>
-                </div>
-                <div class="image"><img src="./img/foto1.jpg" alt="foto do lanche"></div>
-            </div>
 
+      <div class="secaocard">
+        <h2 class="title">Lanches mais pedidos!</h2>
 
-            <div class="btncard">
-                <a href="">Ver menu completo!</a>
+        <div class="card-grid" id="cards">
+          <div class="card">
+            <div class="texto">
+              <h4>HMM BOM DEMAIS</h4>
+              <p>Pão especial da casa, smash burger, muçarela, ovo, bacon, tomate, milho verde, batata palha e maionese especial</p>
+              <h4>R$ 30.00</h4>
             </div>
+            <div class="image">
+              <img src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/ab283dde-9502-43cf-bd94-55ac5af3eea1/202309141741_1HY3_i.jpg" alt="foto do lanche">
+            </div>
+          </div>
+          <div class="card">
+            <div class="texto">
+              <h4>HMM PICLES</h4>
+              <p>Pão especial da casa, smash burger, queijo cheddar, bacon, picles e maionese especial</p>
+              <h4>R$ 26.00</h4>
+            </div>
+            <div class="image">
+              <img src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/ab283dde-9502-43cf-bd94-55ac5af3eea1/202309111806_GFJI_i.jpg" alt="foto do lanche">
+            </div>
+          </div>
+          <div class="card">
+            <div class="texto">
+              <h4>HMM CEBOLA</h4>
+              <p>Pão especial da casa, smash burger, Catupiry Original, bacon crocante, anéis de cebola e maionese especial</p>
+              <h4>R$ 29.00</h4>
+            </div>
+            <div class="image">
+              <img src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/ab283dde-9502-43cf-bd94-55ac5af3eea1/202107261626_6M71_i.jpg" alt="foto do lanche">
+            </div>
+          </div>
+          <div class="card">
+            <div class="texto">
+              <h4>HMM FRANGO BARBECUE</h4>
+              <p>Pão especial da casa, tiras de filé de frango empanadas, queijo cheddar, molho barbecue e maionese especial</p>
+              <h4>R$ 29.00</h4>
+            </div>
+            <div class="image"><img src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/ab283dde-9502-43cf-bd94-55ac5af3eea1/202107261646_1J84_i.jpg" alt="foto do lanche"></div>
+          </div>
         </div>
-      </div>
 
+        <div class="btncard">
+          <button id="menu-completo">Ver menu completo!</button>
+        </div>
+
+      </div>
+
+      <div class="secaoSobreNos">
+        <h2>Sobre nós</h2>
+        <div class="sobreNos">
+          <img src="./img/equipe.jpg" alt="Imagem da equipe do hummBurguer">
+          <p>Na hummBurguer, acreditamos que a chave para um hambúrguer excepcional está nas mãos habilidosas e no coração dedicado de nossa equipe. Composta por profissionais apaixonados, nossa equipe média combina experiência, criatividade e um compromisso inabalável com a qualidade. Desde os chefs que cuidadosamente selecionam os ingredientes frescos e locais, até o pessoal da linha de frente que garante um atendimento caloroso e eficiente, cada membro desempenha um papel vital na criação da experiência hummBurguer. Trabalhamos juntos como uma família, unindo nossas forças para proporcionar a você sabores únicos e momentos inesquecíveis a cada mordida. Venha nos conhecer e descubra a dedicação e o amor que colocamos em cada hambúrguer que servimos.</p>
+        </div>
+        <div class="comentarios">
+          <ul>
+            <li><p style="font-weight: bold">"Amei o hambúrguer de bacon, a maionese caseira é incrível!!"</p></li>
+            <li><p style="font-weight: bold">"Equipe bem atenciosa. Sempre peço pelo whats, rapidinho."</p></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contato">
+        <h2>Faça seu pedido pelo <br><br> <span class="whatsapp">Whatsapp</span> ou <span class="instagram">Instagram!</span></h2>
+
+          <ul>
+            <li class="whpp">
+              <img src="./img/logo-whpp.svg" alt="Logo do Whatsapp">
+              <a href="https://www.instagram.com/byron.solutions?igsh=MW84bGMwc3Vta2dlag==" class="whatsapp">(35) 99999-9999 ou <br> <br> envie uma mensagem</a>
+            </li>
+            <li class="insta">
+              <img src="./img/logo-instagram.svg" alt="Logo do Instagram">
+              <a href="https://www.instagram.com/byron.solutions?igsh=MW84bGMwc3Vta2dlag==" class="instagram">@hummBurguer ou <br> <br>envie uma mensagem</a>
+            </li>
+          </ul>
+      </div>
+
+    </main>
+    <footer>
+      <div class="footer">
+        <p>© byron.solutions T.I. Júnior - Projeto Final Trainee 2024 “hummBurguer!”</p>
+        <img src="./img/logo-byron-preta.png" alt="Logo da byron Solutions">
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="footer">
-      <p>© byron.solutions T.I. Júnior - Projeto Final Trainee 2024 “hummBurguer!”</p>
-      <img src="./img/logo-byron-preta.png" alt="Logo da byron Solutions">
-    </div>
-  </footer>
-</main>
 </html>
