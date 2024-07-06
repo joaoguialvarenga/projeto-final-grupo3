@@ -25,7 +25,6 @@ body {
     padding: 0;
 }
 
-/* Add this reset to ensure there are no unintended margins or paddings */
 * {
     margin: 0;
     padding: 0;

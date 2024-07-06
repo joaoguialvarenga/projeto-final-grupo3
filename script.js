@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const btnMenuCompleto = document.getElementById('menu-completo');
     const cardGrid = document.getElementById('cards');
 
-    btnMenuCompleto.addEventListener('click', function() {
+    btnMenuCompleto.addEventListener('click', function () {
         console.log("Botão 'Ver menu completo!' clicado.");
         fetchHamburgueres(); // Chama a função para carregar os hambúrgueres
     });
