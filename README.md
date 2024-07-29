@@ -75,20 +75,3 @@
 ###### Júlia Arenhardt<a href="https://www.linkedin.com/in/j%C3%BAlia-arenhardt/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>João Guilherme<a href="https://www.linkedin.com/in/joão-guilherme-alvarenga-7aba82198/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>Pedro<a href="https://www.linkedin.com/in/pedro-fernandes-gafaria-alves-8b2105277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </div>
-
-<style>
-div[align="center"] {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-div[align="center"] a {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-}
-div[align="center"] img {
-    margin-left: 5px;
-}
-</style>
