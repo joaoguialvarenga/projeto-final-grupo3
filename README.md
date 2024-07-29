@@ -28,31 +28,31 @@
 
 ##### Home
 
-![Home](https://cdn.discordapp.com/attachments/925523296194297907/1260770822004408421/Home.png?ex=669087d3&is=668f3653&hm=49c898b0bff0567b557083f99da42b2dc4f986c465fb4f42a13e431143b61606&)
+![Home](./img-index/1.jpg)
 
 ---
 
 ##### Menu normal
 
-![Menu normal](https://cdn.discordapp.com/attachments/925523296194297907/1260770866149589163/Menu.png?ex=669087de&is=668f365e&hm=f4be4d7656f3b8654a2e291c35a8a37b51e75b645620aa50234d44902f72062d&)
+![Menu normal](./img-index/2.jpg)
 
 ---
 
 ##### Menu com API
 
-![Menu com API](https://cdn.discordapp.com/attachments/925523296194297907/1260770865671311482/Menu_com_API.png?ex=669087de&is=668f365e&hm=07b3d7b1e5c03e3729e8ad1a360c972f7f40f2eb3639da6c709d8c379c3b2798&)
+![Menu com API](./img-index/3.jpg)
 
 ---
 
 ##### Sobre nós
 
-![Sobre nós](https://cdn.discordapp.com/attachments/925523296194297907/1260770917773082644/Sobre_nos.png?ex=669087ea&is=668f366a&hm=62f9426498dd1da19757b2a7d9a8d77f2e490fa87b154148a4a101b566b1817f&)
+![Sobre nós](./img-index/4.jpg)
 
 ---
 
 ##### Contato
 
-![Contato](https://cdn.discordapp.com/attachments/925523296194297907/1260770821559947344/Contato.png?ex=669087d3&is=668f3653&hm=ad3f417d366b8bc04af9819462c1166c2206d29bd236c747c525bd52e6468195&)
+![Contato](./img-index/5.jpg)
 
 </div>
 
@@ -64,7 +64,7 @@
 
 ##### Obrigada pela oportunidade de crescimento, byron.solutions!
 
-![logo-byron](https://cdn.discordapp.com/attachments/925523296194297907/1260735737121345697/logo-byron-preta.png?ex=66906727&is=668f15a7&hm=c411543750138c06be673490947d1484ad8caf5dfad4a53f89acf798086efeab&)
+![logo-byron](./img/logo-byron-preta.png)
 
 </div>
 
